@@ -1,0 +1,27 @@
+{
+  "name": "new-project",
+  "description": "a practice project using polymer 2 and node",
+  "main": "server.js",
+  "authors": [
+    "SRatna"
+  ],
+  "license": "MIT",
+  "keywords": [
+    "polymer",
+    "javascript",
+    "node",
+    "express"
+  ],
+  "homepage": "https://github.com/SRatna/polymer-2-demo-project",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "polymer": "v2.0.0-rc.7"
+  }
+}
