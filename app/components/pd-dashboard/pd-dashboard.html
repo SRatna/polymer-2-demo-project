@@ -1,0 +1,16 @@
+<link rel="import" href="../../../bower_components/polymer/polymer.html">
+<dom-module id="pd-dashboard">
+    <template>
+        <h3>
+            This is my custom element
+        </h3>
+    </template>
+</dom-module>
+<script>
+    class PdDashboard extends Polymer.Element{
+        static get is(){
+            return 'pd-dashboard';
+        }
+    }
+    customElements.define(PdDashboard.is,PdDashboard);
+</script>
