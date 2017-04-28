@@ -1,0 +1,28 @@
+{
+  "name": "new-project",
+  "version": "1.0.0",
+  "description": "a practice project using polymer 2 and node",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/SRatna/polymer-2-demo-project.git"
+  },
+  "keywords": [
+    "polymer",
+    "javascript",
+    "node",
+    "express"
+  ],
+  "author": "SRatna",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/SRatna/polymer-2-demo-project/issues"
+  },
+  "homepage": "https://github.com/SRatna/polymer-2-demo-project#readme",
+  "dependencies": {
+    "express": "latest"
+  }
+}
