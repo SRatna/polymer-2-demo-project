@@ -1,0 +1,23 @@
+<link rel="import" href="../../../bower_components/polymer/polymer.html">
+<dom-module id="pd-drawer">
+    <template>
+        <p>Test var <input type="text" value="{{test::input}}"></p>
+        <p>Test var is {{test}}</p>
+    </template>
+</dom-module>
+<script>
+    class PdDrawer extends Polymer.Element{
+        static get is(){
+            return 'pd-drawer';
+        }
+        static get properties(){
+            return {
+                test: {
+                    type: Boolean,
+                    value: true
+                }
+            }
+        }
+    }
+    customElements.define(PdDrawer.is,PdDrawer);
+</script>
